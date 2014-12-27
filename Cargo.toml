@@ -1,0 +1,12 @@
+[project]
+name = "smtpd"
+version = "0.0.1"
+authors = ["Toby DiPasquale <toby@cbcg.net>"]
+
+[lib]
+name = "smtpd"
+path = "src/smtpd/lib.rs"
+
+[[bin]]
+name = "smtpd"
+test = false
